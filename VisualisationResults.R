@@ -1,0 +1,11 @@
+
+library(RColorBrewer)
+darkcols <- brewer.pal(8, "Dark2")
+par(mfrow = c(1,2))
+plot(sentimentDataFrame.df$sentiment,xlab = "Polarity",ylab="No. of tweets",col=topo.colors(3),col.lab="blue")
+posCount <- sum(sentimentDataFrame.df$sentiment == "positive")
+negCount <- sum(sentimentDataFrame.df$sentiment == "negative")
+neutCount <- sum(sentimentDataFrame.df$sentiment == "neutral")
+#fan.plot(c(posCount,negCount,neutCount),labels = c("Positive", "Negative","Neutral") ,align="left",max.span = pi)
+pie(c(negCount,neutCount,posCount),labels = c( "Negative","Neutral","Positive"),col=darkcols[5:7])
+mtext(paste("Visualization of Twitter data of :",searchString), side = 3, line = -4, outer = TRUE)
