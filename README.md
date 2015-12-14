@@ -1,5 +1,5 @@
 # TwitterSentimentAnalysis
-Analyzing sentiments of tweets on different Trending Topics like #ArvindKejriwal,#ChennaiRains,#ParisAttacks.
+Analyzed sentiments of tweets on different Trending Topics like #ArvindKejriwal,#ChennaiRains,#ParisAttacks.
 --------
 TwitterAuthentication.R
 Created an App on tweeter and get Access token and API Keys from it.Used TwitteR package for this purpose.
