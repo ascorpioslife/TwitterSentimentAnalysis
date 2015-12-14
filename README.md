@@ -2,7 +2,7 @@
 Analyzed sentiments of tweets on different Trending Topics like #ArvindKejriwal,#ChennaiRains,#ParisAttacks.
 --------
 TwitterAuthentication.R
-Created an App on tweeter and got Access token and API Keys from it.Used TwitteR package for this purpose.
+Created an App on twitter and got Access token and API Keys from it.Used TwitteR package for this purpose.
 --------
 FetchingTweets.R
 Defined a search string on which the search for tweets will be performed.Using searchTwitter function requested for 10,000 tweets in English language.Stored them into a dataframe and .csv file
